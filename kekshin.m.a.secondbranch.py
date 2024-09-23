@@ -3,18 +3,15 @@ a = int(input())
 print("Введи второе число: ")
 b = int(input())
 
-def f(x):
-    if f(x) >= 0:
-        return 1
-    else:
-        return 0
+
     
-if f(a) == 1:
-    if a > b:
-        print("good")
-    else:
-        print("bad")
+
+if a > b:
+    print("its so good, ez")
 else:
-    print("Sorry stop push this numbers")
+    print("aweful")
+c = 0
+c = a+b
+print("c")
 
 
